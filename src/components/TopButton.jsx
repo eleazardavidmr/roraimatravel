@@ -9,7 +9,7 @@ export function TopButton() {
         whileHover={{ scale: 1.1 }}
         className={styles.arrow}
       >
-        <a href="#">
+        <a href="#inicio">
           <img src={arrow} alt="Flecha" />
         </a>
       </motion.section>
