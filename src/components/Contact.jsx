@@ -14,7 +14,7 @@ export function Contact() {
       <section id="contact">
         <form
           onSubmit={handleSubmit}
-          action="https://formsubmit.co/ffac70ffbb48b25cb540e8c11dbd315a"
+          action="https://formsubmit.co/roraimatravelmty@gmail.com"
           method="POST"
           className={styles.form}
         >
