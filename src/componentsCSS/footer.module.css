@@ -1,0 +1,21 @@
+.footer_sect {
+  background-color: dimgray;
+  margin: 0;
+  color: #d1d5d0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px
+}
+
+.contact_a {
+  color: #d1d5d0;
+}
+@media only screen and (min-width: 600px) {
+  .footer_sect div {
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
