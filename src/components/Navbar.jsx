@@ -1,4 +1,4 @@
-import styles from '../componentsCSS/navbar.module.css'
+import styles from "../componentsCSS/navbar.module.css";
 
 export function Navbar() {
   return (
@@ -6,8 +6,15 @@ export function Navbar() {
       <section className={styles.navbar_sect}>
         <nav className={styles.nav}>
           <ul className={styles.ul}>
-            <li><a href="#inicio">Inicio</a></li>
-            <li><a href="#contact">Contacto</a></li>
+            <li>
+              <a href="#inicio">Inicio</a>
+            </li>
+            <li>
+              <a href="#contact">Contacto</a>
+            </li>
+            <li>
+              <a href="#promos">Promociones</a>
+            </li>
           </ul>
         </nav>
       </section>

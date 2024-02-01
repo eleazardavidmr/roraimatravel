@@ -3,6 +3,7 @@ import { Destinations } from "./components/Destinations";
 import { Footer } from "./components/Footer";
 import { Hero } from "./components/Hero";
 import { Navbar } from "./components/Navbar";
+import { Promos } from "./components/Promos";
 import { TopButton } from "./components/TopButton";
 import { TopInfo } from "./components/TopInfo";
 
@@ -13,6 +14,7 @@ function App() {
       <TopInfo />
       <Navbar />
       <Hero />
+      <Promos />
       <Destinations />
       <Contact />
       <Footer />

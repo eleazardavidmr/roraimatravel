@@ -1,17 +1,22 @@
 * {
   font-family: "Onest", sans-serif;
   scroll-behavior: smooth;
-  outline: none;
-}
-
-a{
-  outline: none;
+  outline: none !important;
 }
 
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  line-height: 1.5;
+  font-size: 1.1rem;
+}
+hr {
+  width: 80%;
+  background-color: #09f;
+  padding: 2px;
+  border: none;
+  border-radius: 10px;
 }
 
 body::-webkit-scrollbar {

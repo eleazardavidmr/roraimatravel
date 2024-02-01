@@ -15,7 +15,7 @@
 }
 
 .form_input {
-  padding: 10px;
+  padding: 15px;
   border: none;
   outline: none;
   background-color: #eee;
@@ -69,7 +69,7 @@ textarea:focus {
   textarea {
     width: 40%;
   }
-  .btn{
-    width: 42%
+  .btn {
+    width: 42%;
   }
 }
